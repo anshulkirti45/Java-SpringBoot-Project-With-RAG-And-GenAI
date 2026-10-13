@@ -1,0 +1,68 @@
+
+# ==============================
+# Java / Spring Boot (Backend)
+# ==============================
+
+# Compiled Java files
+*.class
+
+# Maven build output
+backend/target/
+
+# Gradle build output
+backend/build/
+backend/.gradle/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# Logs
+*.log
+logs/
+
+# ==============================
+# Node.js (Frontend)
+# ==============================
+
+# Dependencies
+client/node_modules/
+
+# Build output
+client/dist/
+client/build/
+client/.next/
+client/out/
+
+# Environment variables and secrets
+client/.env
+client/.env.*
+!client/.env.example
+
+# Package manager / debug logs
+client/npm-debug.log*
+client/yarn-debug.log*
+client/pnpm-debug.log*
+
+# ==============================
+# General
+# ==============================
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
